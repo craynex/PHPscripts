@@ -1,5 +1,7 @@
 <?php
 
+
+
 echo ("Gib das erste Alter ein") . chr(10);
 $age1 = readline();
 echo ("Gib das zweite Alter ein") . chr(10);

@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Programm makes a menu where you can choose an option.
+ * Author: Cristian Martin
+ * Date: 18.09.2023
+ */
+
+// Menu and input.
 print("Hauptmenü\n");
 print("*************\n");
 print("(A)endern\n");
@@ -11,9 +18,10 @@ print(" \n");
 print("Wähle Buchstabe:\n");
 $number = readline();
 
+// Output of what option was choosen.
 switch ($number) {
-      case 'A':
-            print("Sie haben Ändern gewählt!\n");
+      case 'A': // Input
+            print("Sie haben Ändern gewählt!\n"); // Output
             break;
       case 'B':
             print("Sie haben Beenden gewählt!\n");

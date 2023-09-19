@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Programm makes a menu about modules where you can choose one
+ * Author: Cristian Martin
+ * Date: 18.09.2023
+ */
+
+// Menu and input.
 print("Themenauswahl\n");
 print("*************\n");
 print("1. Modul 101\n");
@@ -13,7 +20,8 @@ print(" \n");
 print("Wähle nummer:\n");
 $number = readline();
 
-switch($number) {
+// Output what module was choosen.
+switch ($number) {
       case '1':
             print("Du hast Modul 101 gewählt!\n");
             break;
@@ -21,12 +29,12 @@ switch($number) {
             print("Du hast Modul 102 gewählt!\n");
             break;
       case '3':
-             print("Du hast Modul 103 gewählt!\n");
-             break;
+            print("Du hast Modul 103 gewählt!\n");
+            break;
       case '4':
             print("Du hast Modul 104 gewählt!\n");
             break;
-       case '5':
+      case '5':
             print("Du hast Modul 105 gewählt!\n");
             break;
       case '6':
