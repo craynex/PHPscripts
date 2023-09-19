@@ -9,13 +9,12 @@
 // List of every third number until 30 and the addition.
 $summe = 0;
 
-for ($Zahl = 1; $Zahl <= 30; $Zahl ++) {
-      if($Zahl % 3 == 0) {
-      echo $Zahl . ' '; // Output list
-      $summe += $Zahl; // Calculation
-}
+for ($zahl = 1; $zahl <= 30; $zahl ++) {
+      if ($zahl % 3 == 0) {
+            echo $zahl . ' '; // Output list
+            $summe += $zahl; // Calculation
+      }
 }
 
 // Output what the addition of all the numbers is.
 echo "\nSumme : " . $summe . chr(10);
-?>
